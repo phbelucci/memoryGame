@@ -1,6 +1,6 @@
 //
-//  memoryGameApp.swift
-//  memoryGame
+//  MemoryGameApp.swift
+//  MemoryGame
 //
 //  Created by Paulo Belucci on 06/06/21.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct memoryGameApp: App {
+struct MemoryGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JogoView()
         }
     }
 }
